@@ -101,7 +101,7 @@ This script applies brain masks to the SUVR images that are now in MNI space.
 After all subjects have been processed through the steps above, you can create average images for each tracer type.
 
 - **Scripts:**
-    - `Avg_av45Amy.sh` NOTE: you need to manually
+    - `Avg_av45Amy.sh` 
     - `Avg_PIBAmy.sh`
     - `Avg_tau.sh`
 - **Purpose:** These scripts search for all the masked SUVR files for a specific tracer type across all subject directories, merge them into a single 4D file, and then compute the average image.
@@ -117,6 +117,6 @@ After all subjects have been processed through the steps above, you can create a
   ./Avg_tau.sh
   ```
 - **What you will get:**
-    - `all_subjects_amyloid_average.nii.gz`: Average of specific subjects' AV45 scans.
+    - `all_subjects_amyloid_average.nii.gz`: Average of all AV45 scans.
     - `pib_average.nii.gz`: Average of all PIB scans.
     - `tau_average.nii.gz`: Average of all Tau scans.
