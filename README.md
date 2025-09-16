@@ -16,8 +16,8 @@ The raw T1 and PET images should be placed within their respective subject folde
 
 The scripts expect a specific directory structure. Each subject has a main folder (e.g., `20195`). Inside, the T1 scan is at the top level. PET scans should be in subdirectories named according to the tracer for the averaging scripts to work correctly.
 
-- **PIB Amyloid PET:** Place these in a subdirectory ending in `_PIB` (e.g., `20195_PIB`).
-- **AV45 Amyloid PET:** Place these in a subdirectory named `amyloid`.
+- **PIB Amyloid PET:** Place these in a subdirectory in `PIB` .
+- **AV45 Amyloid PET:** Place these in a subdirectory in `AV45`.
 - **Tau PET:** Place these in a subdirectory named `tau`.
 
 ```
